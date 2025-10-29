@@ -1,39 +1,53 @@
-# PUCP Keynote: AI-Native Product Management
+# PUCP: Product Management Fundamentals 01
 
-A modern, animated presentation for the keynote at Pontificia Universidad Católica del Perú (PUCP) on AI-Native Product Management.
+Una experiencia completa de aprendizaje sobre Product Management en la era de la IA, diseñada para la Pontificia Universidad Católica del Perú (PUCP).
 
 ## 🎯 Overview
 
-This presentation explores how AI fundamentally transforms product management - from discovery to strategy to delivery. It features a sleek, modern design with glassmorphism effects, animated gradients, and smooth scroll-based navigation.
+Este proyecto incluye dos componentes:
+
+1. **Landing Page** ([index.html](index.html)) - Puerta de entrada emocional e inspiracional
+2. **Presentación Principal** ([pucp-pres.html](pucp-pres.html)) - 20 slides sobre AI-Native Product Management
+
+Ambos componentes comparten un diseño moderno con glassmorphism, gradientes animados y navegación fluida.
 
 ## 🚀 Quick Start
 
 ### Local Development
 
-Simply open the HTML file in any modern browser:
+Abre cualquiera de los archivos HTML en un navegador moderno:
 
 ```bash
+# Landing page
+open index.html
+
+# Presentación completa
 open pucp-pres.html
 ```
 
 ### Deployment to Vercel
 
-This project is configured for easy deployment to Vercel:
+Este proyecto está configurado para deployment fácil en Vercel:
 
 1. **Push to GitHub:**
    ```bash
    git add .
-   git commit -m "Initial commit: PUCP presentation"
-   git push -u origin main
+   git commit -m "Update: PUCP presentation"
+   git push origin main
    ```
 
 2. **Deploy to Vercel:**
-   - Go to [vercel.com](https://vercel.com)
-   - Import your GitHub repository: `huayaney-exe/diplomado-pucp`
-   - Vercel will automatically detect the configuration
+   - Ve a [vercel.com](https://vercel.com)
+   - Importa tu repositorio GitHub: `huayaney-exe/diplomado-pucp`
+   - Vercel detectará automáticamente la configuración
    - Click "Deploy"
 
-3. **Your presentation will be live!** 🎉
+3. **URLs del proyecto:**
+   - `/` → Landing page (index.html)
+   - `/presentacion` → Presentación completa (pucp-pres.html)
+   - Puedes acceder directamente a `pucp-pres.html` también
+
+4. **¡Tu sitio estará en vivo!** 🎉
 
 ### Manual Vercel Deployment
 
@@ -44,9 +58,21 @@ npm install -g vercel
 vercel
 ```
 
-## 📊 Presentation Structure
+## 🎨 Estructura del Proyecto
 
-The presentation includes 20 slides covering:
+### Landing Page (index.html)
+
+La landing page incluye 5 secciones:
+
+1. **Hero Section** - Mensaje principal inspiracional
+2. **Por Qué Este Momento Es Especial** - 3 tarjetas con razones para ser PM ahora
+3. **Qué Dominarás** - 4 bloques de aprendizaje (Fundamentos)
+4. **Sobre la Sesión** - Bio del speaker y detalles
+5. **CTA Final** - Llamado a la acción para entrar a la presentación
+
+### Presentación Principal (pucp-pres.html)
+
+La presentación incluye 20 slides cubriendo:
 
 1. Opening statement about the best moment to create
 2. Title slide with AI-Native Product Management
@@ -69,34 +95,65 @@ The presentation includes 20 slides covering:
 19. Winning framework
 20. Call to action
 
-## 🎨 Features
+## 🎨 Características
 
-- **Modern Design**: Glassmorphism effects with animated gradients
-- **Smooth Navigation**: Scroll-based with keyboard shortcuts
-- **Responsive**: Works on desktop, tablet, and mobile
-- **Interactive**: Progress dots, slide indicators, and scroll hints
-- **Accessible**: Semantic HTML with proper contrast ratios
+**Compartidas (Landing + Presentación):**
+- **Diseño Moderno**: Efectos glassmorphism con gradientes animados
+- **Sistema de Color Prisma**: Cyan (#47FFBF), Purple (#8376FF), Pink (#FF48C7)
+- **Responsive**: Funciona en desktop, tablet y mobile
+- **Sin dependencias**: HTML, CSS y JavaScript puro
+- **Tipografía Inter**: Familia de fuentes profesional
 
-## 🔧 Technical Details
+**Landing Page:**
+- **Scroll suave**: Animaciones al hacer scroll
+- **Cards interactivas**: Hover effects con glow
+- **Optimizada para conversión**: CTAs estratégicos
 
-- Pure HTML, CSS, and JavaScript (no dependencies)
-- Prisma-inspired design system
-- CSS scroll-snap for smooth navigation
-- Intersection Observer for slide tracking
-- Fully responsive with mobile optimization
+**Presentación:**
+- **Navegación fluida**: Scroll-snap con atajos de teclado
+- **Interactiva**: Progress dots, indicadores, scroll hints
+- **20 slides**: Contenido completo sobre AI-Native PM
 
-## 🎤 About the Speaker
+## 🔧 Detalles Técnicos
+
+- HTML, CSS y JavaScript puro (sin dependencias)
+- Sistema de diseño inspirado en Prisma
+- CSS scroll-snap para navegación suave (presentación)
+- Intersection Observer para tracking y animaciones
+- Completamente responsive con optimización mobile
+- Configuración Vercel para routing inteligente
+
+## 🎤 Sobre el Speaker
 
 **Luis Huayaney**
-- Lead Product Manager at Interbank
-- Innovation architect & product leader
-- Agile methodology educator at Lima universities
-- Building the future of AI-first product development
+- Lead Product Manager en Interbank
+- Arquitecto de innovación y líder de producto
+- Educador en metodologías ágiles en universidades de Lima
+- Construyendo el futuro del desarrollo de productos AI-first
 
-## 📝 License
+## 🚀 Flujo del Usuario
 
-This presentation is for educational purposes at PUCP.
+1. Usuario accede al sitio → **Landing page inspiracional** (index.html)
+2. Lee sobre el momento especial para ser PM + herramientas AI
+3. Entiende qué aprenderá: Fundamentos, herramientas, frameworks
+4. Click en CTA "Iniciar el Aprendizaje" → **Presentación completa** (pucp-pres.html)
+5. Navega 20 slides interactivas sobre AI-Native Product Management
+
+## 📂 Estructura de Archivos
+
+```
+PUCP-PRES/
+├── index.html              # Landing page principal
+├── pucp-pres.html         # Presentación de 20 slides
+├── vercel.json            # Configuración de routing
+├── .gitignore             # Archivos ignorados por git
+└── README.md              # Este archivo
+```
+
+## 📝 Licencia
+
+Esta presentación es con fines educativos para PUCP.
 
 ---
 
-Made with ❤️ for PUCP
+Hecho con ❤️ para PUCP · Product Management Fundamentals 01
