@@ -175,6 +175,25 @@
             box-shadow: var(--shadow-glow);
         }
 
+        .cta-button-secondary {
+            background: transparent;
+            border: 2px solid rgba(71, 255, 191, 0.5);
+            color: var(--color-cyan);
+        }
+
+        .cta-button-secondary:hover {
+            background: rgba(71, 255, 191, 0.1);
+            border-color: var(--color-cyan);
+        }
+
+        .language-selector {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
         /* Scroll Indicator */
         .scroll-indicator {
             position: absolute;
@@ -462,7 +481,10 @@
                 <h1 class="gradient-text">Estamos viviendo el mejor momento para crear productos</h1>
                 <p class="subtitle">Una charla introductoria sobre Product Management en la Era de la IA</p>
                 <p class="tagline">PUCP · Diplomado en Product Management</p>
-                <a href="pucp-pres.html" class="cta-button">Ver la Charla →</a>
+                <div class="language-selector">
+                    <a href="pucp-pres-es.html" class="cta-button">Ver en Español 🇪🇸</a>
+                    <a href="pucp-pres.html" class="cta-button cta-button-secondary">View in English 🇬🇧</a>
+                </div>
             </div>
         </div>
         <div class="scroll-indicator">
@@ -553,7 +575,10 @@
         <div class="container">
             <h2 class="gradient-text">Una Perspectiva sobre el Momento Actual</h2>
             <p class="description">Esta charla ofrece una mirada inspiradora sobre por qué Product Management está en su momento más emocionante y dinámico.</p>
-            <a href="pucp-pres.html" class="cta-button">Ver la Charla →</a>
+            <div class="language-selector">
+                <a href="pucp-pres-es.html" class="cta-button">Ver en Español 🇪🇸</a>
+                <a href="pucp-pres.html" class="cta-button cta-button-secondary">View in English 🇬🇧</a>
+            </div>
         </div>
     </section>
 

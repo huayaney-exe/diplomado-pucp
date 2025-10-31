@@ -6,6 +6,14 @@
     },
     {
       "source": "/presentacion",
+      "destination": "/pucp-pres-es.html"
+    },
+    {
+      "source": "/presentacion-es",
+      "destination": "/pucp-pres-es.html"
+    },
+    {
+      "source": "/presentation",
       "destination": "/pucp-pres.html"
     }
   ]
